@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/Mosaic.csproj",
+      "projectUniqueName": "/home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic/Mosaic.csproj",
       "projectName": "Mosaic",
-      "projectPath": "/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/Mosaic.csproj",
+      "projectPath": "/home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic/Mosaic.csproj",
       "packagesPath": "/home/jonas/.nuget/packages/",
-      "outputPath": "/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/obj/",
+      "outputPath": "/home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jonas/.nuget/NuGet/NuGet.Config"
@@ -35,6 +35,7 @@
         }
       },
       "warningProperties": {
+        "allWarningsAsErrors": true,
         "warnAsError": [
           "NU1605"
         ]
@@ -56,15 +57,7 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.24, 6.0.24]"
-          },
-          {
             "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[6.0.24, 6.0.24]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
             "version": "[6.0.24, 6.0.24]"
           }
         ],

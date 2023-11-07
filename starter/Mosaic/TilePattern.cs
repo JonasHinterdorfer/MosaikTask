@@ -16,6 +16,6 @@ public class TilePattern
         this.Style = style;
     }
 
-    public decimal CalcProductionCost() => _tiles.Sum(X => X.CalcProductionCost());
+    public decimal CalcProductionCost() => _tiles.Sum(x => x.CalcProductionCost());
 
 }

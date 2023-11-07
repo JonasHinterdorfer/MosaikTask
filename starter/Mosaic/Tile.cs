@@ -57,8 +57,6 @@ public sealed class Tile
                 return 1.8M;
             case > 2500:
                 return 1.6M;
-            default:
-                return -1;
         }
     }
 }

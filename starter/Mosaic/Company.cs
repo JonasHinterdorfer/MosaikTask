@@ -78,16 +78,15 @@ public sealed class Company
 
     private double CalcTilePerHourPerWorker(Worker worker)
     {
-        const int basis = 25;
 
         switch (worker.WorkSpeed)
         {
             case WorkSpeed.Fast :
-                return basis * 1.2;
+                return DefaultPiecesPerHour * 1.2;
             case WorkSpeed.Slow:
-                return basis * 0.8;
+                return DefaultPiecesPerHour * 0.8;
             default:
-                return basis;
+                return DefaultPiecesPerHour;
         }
     }
 }

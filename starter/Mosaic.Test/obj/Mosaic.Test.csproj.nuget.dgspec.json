@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic.Test/Mosaic.Test.csproj": {}
+    "/home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic.Test/Mosaic.Test.csproj": {}
   },
   "projects": {
-    "/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic.Test/Mosaic.Test.csproj": {
+    "/home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic.Test/Mosaic.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic.Test/Mosaic.Test.csproj",
+        "projectUniqueName": "/home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic.Test/Mosaic.Test.csproj",
         "projectName": "Mosaic.Test",
-        "projectPath": "/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic.Test/Mosaic.Test.csproj",
+        "projectPath": "/home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic.Test/Mosaic.Test.csproj",
         "packagesPath": "/home/jonas/.nuget/packages/",
-        "outputPath": "/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic.Test/obj/",
+        "outputPath": "/home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic.Test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jonas/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/Mosaic.csproj": {
-                "projectPath": "/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/Mosaic.csproj"
+              "/home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic/Mosaic.csproj": {
+                "projectPath": "/home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic/Mosaic.csproj"
               }
             }
           }
@@ -79,16 +79,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -98,14 +88,14 @@
         }
       }
     },
-    "/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/Mosaic.csproj": {
+    "/home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic/Mosaic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/Mosaic.csproj",
+        "projectUniqueName": "/home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic/Mosaic.csproj",
         "projectName": "Mosaic",
-        "projectPath": "/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/Mosaic.csproj",
+        "projectPath": "/home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic/Mosaic.csproj",
         "packagesPath": "/home/jonas/.nuget/packages/",
-        "outputPath": "/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/obj/",
+        "outputPath": "/home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jonas/.nuget/NuGet/NuGet.Config"
@@ -123,6 +113,7 @@
           }
         },
         "warningProperties": {
+          "allWarningsAsErrors": true,
           "warnAsError": [
             "NU1605"
           ]
@@ -144,15 +135,7 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
               "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
               "version": "[6.0.24, 6.0.24]"
             }
           ],

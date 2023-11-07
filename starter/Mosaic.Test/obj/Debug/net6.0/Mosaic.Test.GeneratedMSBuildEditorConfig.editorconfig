@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Mosaic.Test
-build_property.ProjectDir = /home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic.Test/
+build_property.ProjectDir = /home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic.Test/

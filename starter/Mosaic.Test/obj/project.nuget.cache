@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xRuIp+c1qGhLv+jy7IFmTSoZWBOmECmB/3VeU9JqvYq484jyTruh8WjTB2WzcpPaLS75bcp90REn5dePyos7ZA==",
+  "dgSpecHash": "k3uMBLFAzj6u6a5tsEf66i4gCkRhJg1jP572RN74014r687MXyCdg9GqdE43RaSfMm0SmcNSZce3kdE11sIkeg==",
   "success": true,
-  "projectFilePath": "/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic.Test/Mosaic.Test.csproj",
+  "projectFilePath": "/home/jonas/Documents/Schule/C#/Mosaik/starter/Mosaic.Test/Mosaic.Test.csproj",
   "expectedPackageFiles": [
     "/home/jonas/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/home/jonas/.nuget/packages/fluentassertions/6.7.0/fluentassertions.6.7.0.nupkg.sha512",
@@ -98,9 +98,7 @@
     "/home/jonas/.nuget/packages/xunit.core/2.4.2/xunit.core.2.4.2.nupkg.sha512",
     "/home/jonas/.nuget/packages/xunit.extensibility.core/2.4.2/xunit.extensibility.core.2.4.2.nupkg.sha512",
     "/home/jonas/.nuget/packages/xunit.extensibility.execution/2.4.2/xunit.extensibility.execution.2.4.2.nupkg.sha512",
-    "/home/jonas/.nuget/packages/xunit.runner.visualstudio/2.4.5/xunit.runner.visualstudio.2.4.5.nupkg.sha512",
-    "/home/jonas/.nuget/packages/microsoft.netcore.app.ref/6.0.24/microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
-    "/home/jonas/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.24/microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512"
+    "/home/jonas/.nuget/packages/xunit.runner.visualstudio/2.4.5/xunit.runner.visualstudio.2.4.5.nupkg.sha512"
   ],
   "logs": []
 }
