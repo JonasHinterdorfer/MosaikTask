@@ -22,7 +22,11 @@ public sealed class Company
     public Company(string name, decimal m2Price, decimal hourlyWage, 
         int profitMarginPercent, Worker[] workers)
     {
-        // TODO
+        this.Name = name;
+        this._m2Price = m2Price;
+        this._hourlyWage = hourlyWage;
+        this._profitMargin = profitMarginPercent;
+        this._workers = workers;
     }
 
     /// <summary>
@@ -38,7 +42,17 @@ public sealed class Company
     /// <returns>Cost estimate for the supplied pattern</returns>
     public decimal GetCostEstimate(TilePattern pattern)
     {
-        // TODO
+        decimal cost = 0;
+
+        cost += (decimal)pattern.Area * _m2Price;
+        cost += pattern.CalcProductionCost() * ((100 + _profitMargin) * 0.01M);
+        
+        decimal tilesPerHour = (decimal)CalcPiecesPerHour(pattern.Style);
+        decimal hours = pattern.Pieces / tilesPerHour ;
+        cost += hours * _hourlyWage * _workers.Length;
+        
+
+        return Math.Ceiling(cost);
     }
 
     /// <summary>
@@ -50,6 +64,30 @@ public sealed class Company
     /// <returns>Number of tiles this company is able to place per hour</returns>
     private double CalcPiecesPerHour(PatternStyle patternStyle)
     {
-        // TODO
+        double tilesPerHour = 0;
+        foreach (var worker in _workers)
+        {
+            tilesPerHour += CalcTilePerHourPerWorker(worker);
+        }
+
+        if (patternStyle == PatternStyle.Complex)
+            tilesPerHour *= 0.5;
+        
+        return tilesPerHour;
+    }
+
+    private double CalcTilePerHourPerWorker(Worker worker)
+    {
+        const int basis = 25;
+
+        switch (worker.WorkSpeed)
+        {
+            case WorkSpeed.Fast :
+                return basis * 1.2;
+            case WorkSpeed.Slow:
+                return basis * 0.8;
+            default:
+                return basis;
+        }
     }
 }

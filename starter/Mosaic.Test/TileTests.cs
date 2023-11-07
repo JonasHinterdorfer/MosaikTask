@@ -22,8 +22,8 @@ public sealed class TileTests : TestBase
     {
         var tile = new Tile(style, width, height);
 
-        tile.CalcProductionCost()
-            .Should().Be(expectedPrice, reason);
+        var a =tile.CalcProductionCost();
+            a.Should().Be(expectedPrice, reason);
     }
 
     [Theory]

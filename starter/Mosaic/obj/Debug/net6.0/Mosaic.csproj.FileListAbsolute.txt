@@ -1,0 +1,15 @@
+/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/obj/Debug/net6.0/Mosaic.csproj.AssemblyReference.cache
+/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/obj/Debug/net6.0/Mosaic.GeneratedMSBuildEditorConfig.editorconfig
+/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/obj/Debug/net6.0/Mosaic.AssemblyInfoInputs.cache
+/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/obj/Debug/net6.0/Mosaic.AssemblyInfo.cs
+/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/obj/Debug/net6.0/Mosaic.csproj.CoreCompileInputs.cache
+/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/bin/Debug/net6.0/Mosaic
+/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/bin/Debug/net6.0/Mosaic.deps.json
+/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/bin/Debug/net6.0/Mosaic.runtimeconfig.json
+/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/bin/Debug/net6.0/Mosaic.dll
+/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/bin/Debug/net6.0/Mosaic.pdb
+/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/obj/Debug/net6.0/Mosaic.dll
+/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/obj/Debug/net6.0/refint/Mosaic.dll
+/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/obj/Debug/net6.0/Mosaic.pdb
+/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/obj/Debug/net6.0/Mosaic.genruntimeconfig.cache
+/home/jonas/Documents/Schule/C#/HorceRace/starter/Mosaic/obj/Debug/net6.0/ref/Mosaic.dll
